@@ -152,6 +152,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.3
 
+TARGET_BOARD_PLATFORM := taro
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
@@ -177,9 +179,6 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils-prd \
     qti_telephony_utils.xml \
     qti_telephony_utils_prd.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Update engine
