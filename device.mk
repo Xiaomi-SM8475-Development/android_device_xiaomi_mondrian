@@ -164,7 +164,9 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH)
+    $(DEVICE_PATH) \
+    packages/modules/Bluetooth/android/app \
+    system/bt/conf
 
 # Telephony
 PRODUCT_PACKAGES += \
