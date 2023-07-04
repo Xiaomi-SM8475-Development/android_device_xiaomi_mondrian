@@ -233,8 +233,8 @@
 
     <!-- The properties of a UDFPS sensor in pixels, in the order listed below: -->
     <integer-array name="config_udfps_sensor_props" translatable="false">
-        <item>730</item>
-        <item>2765</item>
+        <item>721</item>
+        <item>2882</item>
         <item>129</item>
     </integer-array>
 
