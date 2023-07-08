@@ -1,0 +1,6 @@
+type hal_fp_mondrian, domain, coredomain;
+hal_server_domain(hal_audio_sysbta, hal_fingerprint)
+
+type hal_fp_mondrian_exec, exec_type, system_file_type, file_type;
+init_daemon_domain(hal_fp_mondrian)
+

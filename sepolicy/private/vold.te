@@ -1,0 +1,2 @@
+#allow vold vendor_qmcs_file:dir { read open ioctl };
+
