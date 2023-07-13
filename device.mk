@@ -68,8 +68,6 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/prebuilts/dtb:dtb.img
 
-PRODUCT_VENDOR_KERNEL_HEADERS := $(DEVICE_PATH)/kernel-headers
-
 # DT2W
 PRODUCT_PACKAGES += \
     DT2W-Service-Mondrian
@@ -78,11 +76,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
     fastbootd
-
-# Fingerprint
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.mondrian \
-    libudfpshandler
 
 # F2FS utilities
 PRODUCT_PACKAGES += \
@@ -173,7 +166,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
     packages/modules/Bluetooth/android/app \
-    hardware/xiaomi
+    system/bt/conf
 
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
