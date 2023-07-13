@@ -54,7 +54,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_SCREEN_HEIGHT := 3200
 TARGET_SCREEN_WIDTH := 1440
 
-
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti \
@@ -63,6 +62,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
+
+# Display - Graphics
+PRODUCT_PACKAGES += \
+    android.hardware.graphics.common-V1-ndk_platform
 
 # Dtb
 PRODUCT_COPY_FILES += \
