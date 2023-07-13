@@ -157,6 +157,10 @@ PRODUCT_PACKAGES += \
 
 TARGET_BOARD_PLATFORM := taro
 
+# Ring
+PRODUCT_PACKAGES += \
+    RingServiceMondrian
+
 # Rootdir
 PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
