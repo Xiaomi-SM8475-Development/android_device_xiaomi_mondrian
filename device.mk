@@ -156,6 +156,12 @@ PRODUCT_BOOT_JARS += \
     QPerformance \
     UxPerformance
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    device/xperience/common/system/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
+    device/xperience/common/system/permissions/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    device/xperience/common/system/public.libraries.system_ext-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
