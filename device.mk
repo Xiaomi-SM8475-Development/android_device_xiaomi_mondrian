@@ -150,6 +150,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0 \
     libavservices_minijail \
+    libtflite \
     vendor.qti.hardware.perf@2.3
 
 PRODUCT_BOOT_JARS += \
@@ -176,6 +177,7 @@ PRODUCT_PACKAGES += \
     qti-telephony-common
 
 TARGET_BOARD_PLATFORM := taro
+TARGET_COMMON_QTI_COMPONENTS := bt
 
 # Ring
 PRODUCT_PACKAGES += \
@@ -188,9 +190,7 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(DEVICE_PATH) \
-    packages/modules/Bluetooth/android/app \
-    system/bt/conf
+    $(DEVICE_PATH)
 
 # Storage
 PRODUCT_PROPERTY_OVERRIDES += \
