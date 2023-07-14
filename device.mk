@@ -159,6 +159,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0 \
     libavservices_minijail \
+    libtflite \
     vendor.qti.hardware.perf@2.3
 
 PRODUCT_BOOT_JARS += \
@@ -178,7 +179,6 @@ PRODUCT_PACKAGES += \
     QtiTelephony \
     qti-telephony-common
 
-# Perf
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.perf@2.3
 
