@@ -1,3 +1,5 @@
+# All blobs are taken from mondrian missi_phone_global-user-13-TKQ1.220905.001-V14.0.4.0.TMNMIXM-release-keys/
+
 # Audio
 system_ext/bin/qxrsplitauxservice
 system_ext/etc/permissions/audiosphere.xml
@@ -66,6 +68,13 @@ system_ext/lib64/libdpmtcm.so
 system_ext/lib64/vendor.qti.hardware.dpmservice@1.0.so
 system_ext/lib64/vendor.qti.hardware.dpmservice@1.1.so
 -system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk
+
+# HotwordEnrollment
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
+system_ext/framework/com.android.hotwordenrollment.common.util.jar
+
 
 # Media
 system_ext/lib/extractors/libmmparserextractor.so
