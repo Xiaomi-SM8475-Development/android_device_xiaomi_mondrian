@@ -396,6 +396,7 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
+    device/xiaomi/mondrian-kernel \
     hardware/gsi
 
 # Sensors
