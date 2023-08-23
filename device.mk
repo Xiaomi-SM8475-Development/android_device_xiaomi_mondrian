@@ -191,7 +191,7 @@ PRODUCT_COPY_FILES += \
 
 # Dtb
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/prebuilts/dtb:dtb.img
+    $(DEVICE_PATH)-kernel/dtb:dtb.img
 
 # DT2W
 PRODUCT_PACKAGES += \
