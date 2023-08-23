@@ -142,7 +142,7 @@ out:
 }
 
 IDevicesFactory* HIDL_FETCH_IDevicesFactory(const char* name) {
-    return new DevicesFactory();
+    return strcmp(name, "default") == 0 ? new DevicesFactory() : nullptr;
 }
 
 }  // namespace implementation
