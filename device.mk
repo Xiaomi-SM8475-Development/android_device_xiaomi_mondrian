@@ -382,9 +382,10 @@ PRODUCT_PACKAGES += \
     RingServiceMondrian
 
 # Rootdir
-PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc \
-    init.qcom.rc
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/rootdir/etc/init.mondrian.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mondrian.rc \
+    $(DEVICE_PATH)/rootdir/etc/init.target.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.target.rc \
+    $(DEVICE_PATH)/rootdir/etc/ueventd-odm.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
