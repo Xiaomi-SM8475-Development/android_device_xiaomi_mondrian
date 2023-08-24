@@ -1238,11 +1238,12 @@ vendor/etc/vintf/manifest/vendor.qti.diag.hal.service.xml
 vendor/lib64/vendor.qti.diaghal@1.0.so
 
 # Display Calibration
-vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.jsonon
+vendor/etc/display/qdcm_calib_data_xiaomi_42_02_0a_cmd_mode_dsc_dsi_panel.json
 vendor/etc/mdss_dsi_m11a_42_02_0a_dsc_cmd_mi.xml
 
 # Display Configs
 product/etc/displayconfig/display_id_4630946545580055170.xml:vendor/etc/displayconfig/display_id_4630946545580055170.xml
+product/etc/displayconfig/resolution_switch_process_list_backup.xml:vendor/etc/displayconfig/resolution_switch_process_list_backup.xml
 
 # Display (Features)
 vendor/bin/feature_enabler_client
@@ -1304,10 +1305,7 @@ vendor/etc/display/DPU670.xml
 vendor/etc/display/DPU720.xml
 vendor/etc/display/DPU7__.xml
 vendor/etc/display/DPU820.xml
-vendor/etc/display/DPU830.xml
-vendor/etc/display/DPU860.xml
 vendor/etc/display/DPU8__.xml
-vendor/etc/display/DPU9__.xml
 vendor/etc/display/advanced_sf_offsets.xml
 vendor/etc/display/thermallevel_to_fps.xml
 vendor/lib64/libdisplayskuutils.so
@@ -1639,16 +1637,16 @@ vendor/bin/loadalgo
 vendor/lib64/libloadalgo_stub.so
 
 # Media configs
-vendor/etc/media_ukee/video_system_specs.json
+vendor/etc/media_cape/video_system_specs.json
 vendor/etc/media_codecs.xml
-vendor/etc/media_codecs_performance_ukee.xml
-vendor/etc/media_codecs_performance_ukee_vendor.xml
+vendor/etc/media_codecs_performance_cape.xml
+vendor/etc/media_codecs_performance_cape_vendor.xml
 vendor/etc/media_codecs_system_default.xml
-vendor/etc/media_codecs_ukee.xml
-vendor/etc/media_codecs_ukee_vendor.xml
+vendor/etc/media_codecs_cape.xml
+vendor/etc/media_codecs_cape_vendor.xml
 vendor/etc/media_profiles.xml
 vendor/etc/media_profiles_V1_0.xml
-vendor/etc/media_profiles_ukee.xml
+vendor/etc/media_profiles_cape.xml
 
 # Memory
 vendor/lib64/libvmmem.so
