@@ -303,10 +303,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     AospWifiResOverlayMondrian \
     CarrierConfigResCommonMondrian \
-    FrameworksResCommon \
+    FrameworksResCommonMondrian \
     FrameworksResOverlayMondrian \
     SettingsOverlayMondrian \
-    SettingsResCommon \
+    SettingsResCommonMondrian \
     SystemUIOverlayMondrian \
     SystemUIResCommon \
     TelecommResCommon \
@@ -352,12 +352,6 @@ PRODUCT_PACKAGES += \
 # Properties
 include $(DEVICE_PATH)/configs/properties/default.mk
 
-# RIL
-PRODUCT_PACKAGES += \
-    Ims \
-    QtiTelephony \
-    qti-telephony-common
-
 TARGET_BOARD_PLATFORM := taro
 
 # QC common
@@ -371,7 +365,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
     init \
     media \
     nfc \
-    overlay \
     perf \
     telephony \
     usb \
