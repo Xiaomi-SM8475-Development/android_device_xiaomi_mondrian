@@ -302,7 +302,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     AospWifiResOverlayMondrian \
-    CarrierConfigResCommon \
+    CarrierConfigResCommonMondrian \
     FrameworksResCommon \
     FrameworksResOverlayMondrian \
     SettingsOverlayMondrian \
